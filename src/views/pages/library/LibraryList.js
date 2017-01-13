@@ -25,7 +25,7 @@ class LibraryList extends Component {
             spinner: true
         });
 
-        axios.get('https://developer.marvel.com/v1/public/characters?apikey=e8bc1d83c06937ea9aad26771deca735').then(response => {
+        axios.get('/data/library_hours.json').then(response => {
             this.setState({
                 locations: response.data.locations,
             });
