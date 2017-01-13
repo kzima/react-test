@@ -44,7 +44,6 @@ Server rendering made possible via ReactDOMServer.renderToString. The visitor wi
 see more [here](http://redux.js.org/docs/recipes/ServerRendering.html);
 
 # WCAG 2.0 AA compliance considerations
-## TODO:
 - add Aria labels
 - Every page has an appropriate/meaningful <title></title>
 - add secondary navigation
