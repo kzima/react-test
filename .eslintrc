@@ -1,0 +1,31 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 7,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "plugins": [
+        "react"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "rules": {
+       "no-set-state": "off",
+       "semi": 2
+    },
+    "globals": {
+        "describe": true,
+        "beforeEach": true,
+        "afterEach": true,
+        "console": true,
+        "setTimeout": true,
+        "require": true,
+        "document": true,
+        "window": true,
+        "it": true
+    }
+}

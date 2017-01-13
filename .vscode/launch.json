@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch localhost",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:3006",
+            "sourceMaps": true,
+            "webRoot": "${workspaceRoot}"
+        },
+        {
+            "name": "FF Launch index.html",
+            "type": "firefox",
+            "request": "launch",
+            "url": "http://localhost:3006",
+            "webRoot": "${workspaceRoot}"
+        }
+    ]
+}
